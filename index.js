@@ -33,8 +33,8 @@ app.post("/paypal", async (req, res) => {
           payment_method: "paypal"
       },
       redirect_urls: {
-          return_url: "https://laundry-api-8guz.onrender.com/success",
-          cancel_url: "https://laundry-api-8guz.onrender.com/cancel"
+          return_url: "https://laundry-api-2f92.onrender.com//success",
+          cancel_url: "https://laundry-api-2f92.onrender.com//cancel"
       },
       transactions: [
           {
